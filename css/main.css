@@ -1,0 +1,118 @@
+
+.jumbotron {
+    background-image: url('../img/banner-img.jpg');
+    background-color: transparent;
+    background-position: 0 335px;
+    background-size: cover;
+}
+.msg-container {
+    padding: 10px;
+    background: rgba(8, 89, 160, 0.95);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+.exclusive-offer {
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.exclusive-offer span {
+    letter-spacing: 2px;
+    color: #F4F8FB;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-default {
+    background-color: #323744;
+    border-color: #343644;
+}
+.margin-top {
+    margin-top: 68px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus , .navbar-default .navbar-brand:hover {
+    color: #D8E7F7;
+}
+.container .jumbotron {
+  border-radius: 0px; 
+}
+.find-friends-btn {
+    width: 86%;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+}
+.btn-primary , .btn-primary:hover, .btn-primary:active, .btn-primary:focus,.btn-primary:active:hover{
+    color: #fff;
+    background-color: #EA1748;
+    border-color: #DA1C51;
+    cursor: pointer;
+}
+.btn-back, .btn-back:hover, .btn-back:active:hover{
+    margin-top: 8px;
+    margin-right: 8px;
+    background: #63636B;
+    border-color: #333;
+    color: #CACACA;
+    cursor: pointer;
+}
+.glyphicon{cursor: pointer;}
+#share-buttons button{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+    outline:0;
+}
+#share-buttons img {
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    width: 38px;
+    padding: 3px;
+}
+.share-your-frnd{
+    padding: 35px 0 5px 0;
+    color: #083886;
+}
+.form-section {
+    padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+.submit-btn{
+    width: 100%;
+}
+.bnrimg{
+    height:170px; 
+    margin-bottom: 0px;
+}
+.additional{
+        padding: 16px;
+    background: rgba(26, 105, 175, 0.91);
+    text-align: center;
+    width: 93%;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    margin-bottom: 25px;
+    }
+    .additional > h3{
+        margin-top: 0px;
+    margin-bottom: 0;
+    }
+    .jumbotron {
+    background-image: url('../img/banner-img.jpg');
+    background-color: transparent;
+    background-position: 0 170px;
+    background-size: cover;
+    height: 170px;
+}
+.mobileShow { display: none;}
+   /* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px){ 
+    .mobileShow { 
+        display: inline;
+    }
+}
